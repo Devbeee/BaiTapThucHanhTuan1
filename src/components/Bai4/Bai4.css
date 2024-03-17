@@ -1,14 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.main{
+.main {
     display: flex;
     flex-direction: column;
-    
 }
-.form_container{
+.form_container {
     width: 50%;
     margin: auto;
     background-color: #eaf1f9;
@@ -35,14 +34,14 @@
     font-size: 21px;
     margin-bottom: 8px;
 }
-.form-label-mini{
+.form-label-mini {
     display: inline-block;
     font-size: 20px;
     min-width: 25px;
 }
 .form-control,
 .form-control-mini,
-.textarea{
+.textarea {
     padding: 5px 0;
     border-top: 2px solid #333;
     border-left: 2px solid #333;
@@ -78,15 +77,15 @@
     width: 250px;
     height: 250px;
 }
-.display-inline-block{
+.display-inline-block {
     display: inline-block;
 }
-input[type=checkbox] {
+input[type="checkbox"] {
     position: relative;
     cursor: pointer;
     margin: 0 10px;
 }
-input[type=checkbox]:before {
+input[type="checkbox"]:before {
     content: "";
     display: block;
     position: absolute;
@@ -102,7 +101,7 @@ input[type=checkbox]:before {
     box-shadow: 2px 2px 1px #fff;
     background-color: white;
 }
-input[type=checkbox]:checked::after{
+input[type="checkbox"]:checked::after {
     content: "";
     display: block;
     width: 5px;
@@ -136,4 +135,24 @@ input[type=checkbox]:checked::after{
 .report__content {
     font-size: 20px;
     margin-top: 10px;
+}
+.result {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #6983a3;
+    padding: 20px;
+    color: #fff;
+}
+.resultTextContainer {
+    margin: 6px;
+}
+.resultHeading {
+    align-self: center;
+    font-size: 30px;
+}
+.resultText {
+    font-size: 20px;
 }
