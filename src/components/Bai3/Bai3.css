@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.App {
+    display: flex;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    background-color: #cdcb98;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+}
+
+.header {
+    background-color: #727138;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.listSites {
+    list-style-type: none;
+    background-color: #fff;
+    width: 49%;
+    padding: 5px;
+
+}
+
+.listSitesDiv {
+    width: 48%;
+    margin-bottom: 2380px;
+    background-color: #fff;
+}
+
+.listName {
+    margin-bottom: 10px;
+}
+
+.itemSite {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.itemSiteLink {
+    font-size: 20px;
+}
+
+.listSitesImages {
+    list-style-type: none;
+    background-color: #fff;
+    width: 50%;
+    padding-top: 5px;
+}
+
+.itemSiteImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemImageName {
+    margin-bottom: 15px;
+}
+
+.itemImage {
+    width: 300px;
+    height: 300px;
+}
+
+.back {
+    font-size: 20px;
+}
+
+.itemSiteImage+.itemSiteImage {
+    margin-top: 15px;
+}
